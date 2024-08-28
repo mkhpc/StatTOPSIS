@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #StatTOPSIS
 #Author: Mandeep Kumar
 #Email: themandeepkumar@gmail.com
@@ -46,10 +45,10 @@ def topsis(raw_data, weights, benefit_categories, epsilon=1e-10):
 categories = np.array(["Maximum Memory (GB)", "Supported Languages", "Free Tier (million invocations)", "On-Demand USD Cost (per million invocations)"])
 alternatives = np.array(["AWS Lambda", "Microsoft Azure Functions", "Google Cloud Functions", "Oracle Cloud Functions"])
 raw_data = np.array([
-    [10,	8, 1,	0.20],
-    [15,	7, 1,	0.20],
-    [32,	7, 2,	0.40],
-    [2,	6, 2,	0.20],
+    [10, 8, 1, 0.20],
+    [15, 7, 1, 0.20],
+    [32, 7, 2, 0.40],
+    [2, 6, 2,	0.20],
 
 ])
 

@@ -104,7 +104,7 @@ for j in range(n):
         a_pos[j] = min_val
         a_neg[j] = max_val
 
-ideal_df = pd.DataFrame(data=[a_pos, a_neg], index=["A+", "Negative"], columns=categories)
+ideal_df = pd.DataFrame(data=[a_pos, a_neg], index=["A+", "A-"], columns=categories)
 print("Ideal and Negative Ideal Solutions:")
 display(ideal_df)
 
